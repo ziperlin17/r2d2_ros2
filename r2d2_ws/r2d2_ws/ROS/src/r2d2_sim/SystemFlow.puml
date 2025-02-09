@@ -1,0 +1,50 @@
+from plantuml import PlantUML
+
+# Define UML interaction flow in PlantUML syntax
+uml_code = """
+@startuml
+title RoboLearn Interaction Flow
+
+actor User
+participant "Frontend Layer\n(React.js, Next.js)" as Frontend
+participant "Backend Layer\n(Node.js, Django)" as Backend
+participant "Simulation Services\n(ROS2, Gazebo)" as Simulation
+participant "Database\n(PostgreSQL, MongoDB)" as Database
+participant "DevOps & Infrastructure\n(Docker, Kubernetes)" as DevOps
+
+User -> Frontend: Login / Access Course
+Frontend -> Backend: Send API Request (Auth & Data)
+Backend -> Database: Query User Data
+Database --> Backend: Return User Data
+Backend --> Frontend: User Authentication & Content
+
+User -> Frontend: Interact with Code Editor
+Frontend -> Backend: Send Code for Execution
+Backend -> Simulation: Forward Code to ROS2 Node
+Simulation -> Simulation: Process Simulation Data
+Simulation --> Backend: Simulation Results
+Backend --> Frontend: Send Simulation Output
+
+User -> Frontend: View Progress
+Frontend -> Backend: Request Progress Data
+Backend -> Database: Query Progress Logs
+Database --> Backend: Return Logs
+Backend --> Frontend: Display Progress
+
+Backend -> DevOps: Resource Scaling (Containers/Nodes)
+Backend -> Database: Log System Metrics
+
+@enduml
+"""
+
+# Create UML diagram using PlantUML
+url = "http://www.plantuml.com/plantuml/png/"
+plantuml = PlantUML(url)
+uml_diagram = plantuml.processes(uml_code)
+
+
+output_path = "/mnt/data/RoboLearn_UML_Interaction_Flow.png"
+with open(output_path, "wb") as file:
+    file.write(uml_diagram)
+
+output_path

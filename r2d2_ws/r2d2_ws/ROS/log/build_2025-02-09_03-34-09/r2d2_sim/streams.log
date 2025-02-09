@@ -1,0 +1,17 @@
+[3.495s] Invoking command in '/home/ziper/r2d2_ws/ROS/src/r2d2_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ziper/r2d2_ws/ROS/build/r2d2_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ziper/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r2d2_sim build --build-base /home/ziper/r2d2_ws/ROS/build/r2d2_sim/build install --record /home/ziper/r2d2_ws/ROS/build/r2d2_sim/install.log --single-version-externally-managed install_data
+[4.115s] running egg_info
+[4.154s] writing ../../build/r2d2_sim/r2d2_sim.egg-info/PKG-INFO
+[4.169s] writing dependency_links to ../../build/r2d2_sim/r2d2_sim.egg-info/dependency_links.txt
+[4.171s] writing requirements to ../../build/r2d2_sim/r2d2_sim.egg-info/requires.txt
+[4.172s] writing top-level names to ../../build/r2d2_sim/r2d2_sim.egg-info/top_level.txt
+[4.221s] reading manifest file '../../build/r2d2_sim/r2d2_sim.egg-info/SOURCES.txt'
+[4.225s] writing manifest file '../../build/r2d2_sim/r2d2_sim.egg-info/SOURCES.txt'
+[4.229s] running build
+[4.229s] running install
+[4.242s] running install_data
+[4.252s] running install_egg_info
+[4.355s] removing '/home/ziper/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages/r2d2_sim-0.0.0-py3.12.egg-info' (and everything under it)
+[4.356s] Copying ../../build/r2d2_sim/r2d2_sim.egg-info to /home/ziper/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages/r2d2_sim-0.0.0-py3.12.egg-info
+[4.364s] running install_scripts
+[4.714s] writing list of installed files to '/home/ziper/r2d2_ws/ROS/build/r2d2_sim/install.log'
+[4.767s] Invoked command in '/home/ziper/r2d2_ws/ROS/src/r2d2_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/ziper/r2d2_ws/ROS/build/r2d2_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ziper/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/r2d2_sim build --build-base /home/ziper/r2d2_ws/ROS/build/r2d2_sim/build install --record /home/ziper/r2d2_ws/ROS/build/r2d2_sim/install.log --single-version-externally-managed install_data
