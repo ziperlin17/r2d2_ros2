@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>r2d2_sim</name>
+  <version>0.0.0</version>
+  <description>Симуляция робота R2D2 с использованием ros2_control и Gazebo.</description>
+  <maintainer email="email@example.com">Имя Фамилия</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Основные зависимости для Python и ROS 2 -->
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+  <depend>launch</depend>
+  <depend>launch_ros</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>ros_gz</depend>
+  <depend>gz_ros</depend>
+  <depend>ros_gz_bridge</depend>
+  <depend>ros_gz_sim</depend>
+  <depend>ros2launch</depend>
+
+  <!-- Зависимости для ros2_control (интеграция с контроллерами и плагинами) -->
+  <depend>ackermann_steering_controller</depend>
+  <depend>control_msgs</depend>
+  <depend>diff_drive_controller</depend>
+  <depend>effort_controllers</depend>
+  <depend>gz_ros2_control</depend>
+  <depend>hardware_interface</depend>
+  <depend>imu_sensor_broadcaster</depend>
+  <depend>joint_state_broadcaster</depend>
+  <depend>joint_trajectory_controller</depend>
+  <depend>mecanum_drive_controller</depend>
+  <depend>ros2controlcli</depend>
+  <depend>tricycle_controller</depend>
+  <depend>velocity_controllers</depend>
+
+  <!-- Зависимости для тестирования -->
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

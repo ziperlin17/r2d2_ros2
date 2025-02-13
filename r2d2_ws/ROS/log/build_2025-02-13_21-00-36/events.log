@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.000927] (r2d2_sim) JobQueued: {'identifier': 'r2d2_sim', 'dependencies': OrderedDict()}
+[0.009250] (r2d2_sim) JobStarted: {'identifier': 'r2d2_sim'}
+[0.098698] (-) TimerEvent: {}
+[0.200317] (-) TimerEvent: {}
+[0.301832] (-) TimerEvent: {}
+[0.403978] (-) TimerEvent: {}
+[0.509962] (-) TimerEvent: {}
+[0.612759] (-) TimerEvent: {}
+[0.714636] (-) TimerEvent: {}
+[0.818595] (-) TimerEvent: {}
+[0.921027] (-) TimerEvent: {}
+[1.027357] (-) TimerEvent: {}
+[1.129645] (-) TimerEvent: {}
+[1.232934] (-) TimerEvent: {}
+[1.334286] (-) TimerEvent: {}
+[1.438032] (-) TimerEvent: {}
+[1.542975] (-) TimerEvent: {}
+[1.644389] (-) TimerEvent: {}
+[1.745615] (-) TimerEvent: {}
+[1.846743] (-) TimerEvent: {}
+[1.948046] (-) TimerEvent: {}
+[2.049817] (-) TimerEvent: {}
+[2.152354] (-) TimerEvent: {}
+[2.253652] (-) TimerEvent: {}
+[2.354972] (-) TimerEvent: {}
+[2.456327] (-) TimerEvent: {}
+[2.558537] (-) TimerEvent: {}
+[2.661371] (-) TimerEvent: {}
+[2.763635] (-) TimerEvent: {}
+[2.866415] (-) TimerEvent: {}
+[2.968797] (-) TimerEvent: {}
+[3.072904] (-) TimerEvent: {}
+[3.176555] (-) TimerEvent: {}
+[3.278540] (-) TimerEvent: {}
+[3.380558] (-) TimerEvent: {}
+[3.482976] (-) TimerEvent: {}
+[3.584404] (-) TimerEvent: {}
+[3.685437] (-) TimerEvent: {}
+[3.787853] (-) TimerEvent: {}
+[3.889505] (-) TimerEvent: {}
+[3.991950] (-) TimerEvent: {}
+[4.093481] (-) TimerEvent: {}
+[4.196699] (-) TimerEvent: {}
+[4.298318] (-) TimerEvent: {}
+[4.399645] (-) TimerEvent: {}
+[4.502775] (-) TimerEvent: {}
+[4.605655] (-) TimerEvent: {}
+[4.712689] (-) TimerEvent: {}
+[4.784894] (r2d2_sim) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/r2d2_sim', 'build', '--build-base', '/home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/build', 'install', '--record', '/home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ziper/r2d2_ws_last/r2d2_ws/ROS/src/r2d2_sim', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ziper', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ziper', 'OLDPWD': '/home/ziper', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1635', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ziper', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ziper', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ziper-VirtualBox:@/tmp/.ICE-unix/1597,unix/ziper-VirtualBox:/tmp/.ICE-unix/1597', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7a6adc97_7b5b_4a72_9f13_74314f38dfce', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.M4QD12', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.814825] (-) TimerEvent: {}
+[4.917474] (-) TimerEvent: {}
+[5.021009] (-) TimerEvent: {}
+[5.124425] (-) TimerEvent: {}
+[5.225688] (-) TimerEvent: {}
+[5.326931] (-) TimerEvent: {}
+[5.429332] (-) TimerEvent: {}
+[5.531971] (-) TimerEvent: {}
+[5.626347] (r2d2_sim) StdoutLine: {'line': b'running egg_info\n'}
+[5.627983] (r2d2_sim) StdoutLine: {'line': b'creating ../../build/r2d2_sim/r2d2_sim.egg-info\n'}
+[5.633393] (-) TimerEvent: {}
+[5.682877] (r2d2_sim) StdoutLine: {'line': b'writing ../../build/r2d2_sim/r2d2_sim.egg-info/PKG-INFO\n'}
+[5.686013] (r2d2_sim) StdoutLine: {'line': b'writing dependency_links to ../../build/r2d2_sim/r2d2_sim.egg-info/dependency_links.txt\n'}
+[5.688008] (r2d2_sim) StdoutLine: {'line': b'writing entry points to ../../build/r2d2_sim/r2d2_sim.egg-info/entry_points.txt\n'}
+[5.692522] (r2d2_sim) StdoutLine: {'line': b'writing requirements to ../../build/r2d2_sim/r2d2_sim.egg-info/requires.txt\n'}
+[5.694932] (r2d2_sim) StdoutLine: {'line': b'writing top-level names to ../../build/r2d2_sim/r2d2_sim.egg-info/top_level.txt\n'}
+[5.695626] (r2d2_sim) StdoutLine: {'line': b"writing manifest file '../../build/r2d2_sim/r2d2_sim.egg-info/SOURCES.txt'\n"}
+[5.736079] (-) TimerEvent: {}
+[5.833446] (r2d2_sim) StdoutLine: {'line': b"reading manifest file '../../build/r2d2_sim/r2d2_sim.egg-info/SOURCES.txt'\n"}
+[5.834745] (r2d2_sim) StdoutLine: {'line': b"writing manifest file '../../build/r2d2_sim/r2d2_sim.egg-info/SOURCES.txt'\n"}
+[5.835524] (r2d2_sim) StdoutLine: {'line': b'running build\n'}
+[5.836497] (-) TimerEvent: {}
+[5.837000] (r2d2_sim) StdoutLine: {'line': b'running build_py\n'}
+[5.839851] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/build\n'}
+[5.840984] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/build/lib\n'}
+[5.843630] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/build/lib/r2d2_sim\n'}
+[5.844466] (r2d2_sim) StdoutLine: {'line': b'copying r2d2_sim/robot_controller.py -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/build/lib/r2d2_sim\n'}
+[5.845025] (r2d2_sim) StdoutLine: {'line': b'copying r2d2_sim/__init__.py -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/build/lib/r2d2_sim\n'}
+[5.848551] (r2d2_sim) StdoutLine: {'line': b'running install\n'}
+[5.861695] (r2d2_sim) StdoutLine: {'line': b'running install_lib\n'}
+[5.912976] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages/r2d2_sim\n'}
+[5.913961] (r2d2_sim) StdoutLine: {'line': b'copying /home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/build/lib/r2d2_sim/robot_controller.py -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages/r2d2_sim\n'}
+[5.915757] (r2d2_sim) StdoutLine: {'line': b'copying /home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/build/lib/r2d2_sim/__init__.py -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages/r2d2_sim\n'}
+[5.917402] (r2d2_sim) StdoutLine: {'line': b'byte-compiling /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages/r2d2_sim/robot_controller.py to robot_controller.cpython-312.pyc\n'}
+[5.918808] (r2d2_sim) StdoutLine: {'line': b'byte-compiling /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages/r2d2_sim/__init__.py to __init__.cpython-312.pyc\n'}
+[5.923819] (r2d2_sim) StdoutLine: {'line': b'running install_data\n'}
+[5.926307] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/ament_index\n'}
+[5.926866] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/ament_index/resource_index\n'}
+[5.929316] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/ament_index/resource_index/packages\n'}
+[5.929952] (r2d2_sim) StdoutLine: {'line': b'copying resource/r2d2_sim -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/ament_index/resource_index/packages\n'}
+[5.931811] (r2d2_sim) StdoutLine: {'line': b'copying package.xml -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim\n'}
+[5.933862] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/launch\n'}
+[5.934658] (r2d2_sim) StdoutLine: {'line': b'copying launch/r2d2.launch.py -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/launch\n'}
+[5.936523] (-) TimerEvent: {}
+[5.937711] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/models\n'}
+[5.940587] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/models/r2d2models\n'}
+[5.941369] (r2d2_sim) StdoutLine: {'line': b'copying models/r2d2models/model.sdf -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/models/r2d2models\n'}
+[5.941871] (r2d2_sim) StdoutLine: {'line': b'copying models/r2d2models/r2d2.xacro.urdf -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/models/r2d2models\n'}
+[5.946528] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/config\n'}
+[5.949779] (r2d2_sim) StdoutLine: {'line': b'copying config/diff_drive_controller.yaml -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/config\n'}
+[5.962518] (r2d2_sim) StdoutLine: {'line': b'creating /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/r2d2_sim\n'}
+[5.963015] (r2d2_sim) StdoutLine: {'line': b'copying r2d2_sim/robot_controller.py -> /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/share/r2d2_sim/r2d2_sim\n'}
+[5.963675] (r2d2_sim) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.031641] (r2d2_sim) StdoutLine: {'line': b'Copying ../../build/r2d2_sim/r2d2_sim.egg-info to /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/lib/python3.12/site-packages/r2d2_sim-0.0.0-py3.12.egg-info\n'}
+[6.033844] (r2d2_sim) StdoutLine: {'line': b'running install_scripts\n'}
+[6.037757] (-) TimerEvent: {}
+[6.139581] (-) TimerEvent: {}
+[6.242833] (-) TimerEvent: {}
+[6.345479] (-) TimerEvent: {}
+[6.447567] (-) TimerEvent: {}
+[6.482768] (r2d2_sim) StdoutLine: {'line': b'Installing robot_controller script to /home/ziper/r2d2_ws_last/r2d2_ws/ROS/install/r2d2_sim/lib/r2d2_sim\n'}
+[6.486979] (r2d2_sim) StdoutLine: {'line': b"writing list of installed files to '/home/ziper/r2d2_ws_last/r2d2_ws/ROS/build/r2d2_sim/install.log'\n"}
+[6.551472] (-) TimerEvent: {}
+[6.573259] (r2d2_sim) CommandEnded: {'returncode': 0}
+[6.657506] (-) TimerEvent: {}
+[6.674467] (r2d2_sim) JobEnded: {'identifier': 'r2d2_sim', 'rc': 0}
+[6.677700] (-) EventReactorShutdown: {}
